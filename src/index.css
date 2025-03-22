@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-white;
+  }
+}
+
+.gradient-border {
+  background: linear-gradient(#0a0a0a, #0a0a0a) padding-box,
+              linear-gradient(to right, #8b5cf6, #6366f1) border-box;
+  border: 2px solid transparent;
+}
+
+.project-card {
+  @apply relative overflow-hidden rounded-lg p-6 gradient-border transition-all duration-300 hover:scale-[1.02];
+}
+
+.nav-link {
+  @apply relative text-gray-300 hover:text-white transition-colors duration-200 cursor-pointer;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-violet-500 transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.section {
+  scroll-margin-top: 5rem;
+}
