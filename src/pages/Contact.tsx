@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <MapPin className="text-violet-400" />
-                  <span className="text-gray-300">Kerala, India</span>
+                  <span className="text-gray-300">Bengaluru, India</span>
                 </div>
               </div>
             </motion.div>
