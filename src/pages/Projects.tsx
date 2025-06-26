@@ -4,6 +4,7 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+<<<<<<< HEAD
     title: 'No Code SQL',
     description: 'A natural language to SQL converter that allows users to query databases using plain English. Powered by DeekSeek API and Supabase, perfect for non-technical users who need data insights.',
     tech: ['React', 'TypeScript', 'DeekSeek API', 'Supabase'],
@@ -11,6 +12,8 @@ const projects = [
     image: 'https://raw.githubusercontent.com/anandhu2311c/no_code_sql/7e1e8eb408bf121dbb054aa04722fb431a9dacef/src/components/Screenshot%202025-04-23%20223121.png'
   },
   {
+=======
+>>>>>>> c88eeb6 (image)
     title: 'AI-Powered Email Rewriter',
     description: 'An intelligent email assistant that rewrites emails in different tones (formal, friendly, or professional) using LLaMA 3 API, making communication effortless and tone-perfect.',
     tech: ['React', 'TypeScript', 'LLaMA 3 API'],
@@ -18,6 +21,16 @@ const projects = [
     image: 'https://raw.githubusercontent.com/anandhu2311c/Email_parser/3aa29a6721e13476fc65f35d8cfdb20e2b88c55d/dist/Screenshot%202025-04-16%20170504.png'
   },
   {
+<<<<<<< HEAD
+=======
+    title: 'No Code SQL',
+    description: 'A natural language to SQL converter that allows users to query databases using plain English. Powered by DeekSeek API and Supabase, perfect for non-technical users who need data insights.',
+    tech: ['React', 'TypeScript', 'DeekSeek API', 'Supabase'],
+    githubUrl: 'https://github.com/anandhu2311c/no_code_sql.git',
+    image: 'https://raw.githubusercontent.com/anandhu2311c/no_code_sql/7e1e8eb408bf121dbb054aa04722fb431a9dacef/src/components/Screenshot%202025-04-23%20223121.png'
+  },
+  {
+>>>>>>> c88eeb6 (image)
     title: 'Wishboard',
     description: 'A React-based web application helping orphanages manage their wish list items with budget tracking and top requested items features.',
     tech: ['React', 'TypeScript', 'Tailwind CSS'],
