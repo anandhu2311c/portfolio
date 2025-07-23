@@ -7,59 +7,88 @@ const certificates = [
     title: 'SQL (Intermediate) Certificate',
     issuer: 'HackerRank',
     date: '2023',
-    image: 'https://images.unsplash.com/photo-1434030216411-?ixlib=-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Advanced React development concepts and best practices'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/sql_hackerrank.png',
+    description: 'Intermediate SQL concepts and practical query writing'
   },
   {
     title: 'NoSQL and DBaaS 101',
     issuer: 'Cognitive Class',
     date: '2023',
-    image: 'https://images.unsplash.com/photo-1526379095098-d400fd0bf935?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Comprehensive Python programming and data structures'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/nosql_cognitive.png',
+    description: 'Basics of NoSQL databases and Database-as-a-Service concepts'
   },
   {
     title: 'Machine Learning-Dimensionality Reduction',
     issuer: 'Cognitive Class',
     date: '2024',
-    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Introduction to machine learning algorithms and applications'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/machinelearning_cognitive.png',
+    description: 'Understanding machine learning techniques for dimensionality reduction'
   },
   {
     title: 'No-code Machine Learning and Generative AI',
     issuer: 'AWS',
     date: '2024',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Full-stack web development with modern technologies'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/no_codeml_aws.png',
+    description: 'Applying no-code machine learning and AI tools on AWS platform'
   },
   {
     title: 'Networking Basics',
     issuer: 'Cisco Networking Academy',
     date: '2024',
-    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Advanced computer vision techniques and applications'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/networking_basics_cisco.png',
+    description: 'Foundational concepts in computer networking'
   },
   {
     title: 'Introduction to Cybersecurity',
     issuer: 'Cisco Networking Academy',
     date: '2024',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Advanced TypeScript concepts and enterprise patterns'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/Introduction_to_cyber_cisco.png',
+    description: 'Fundamentals of cybersecurity principles and practices'
   },
   {
-    title: ' Automated Machine Learning for Beginners (Google & Apple)',
+    title: 'Automated Machine Learning for Beginners (Google & Apple)',
     issuer: 'Udemy',
     date: '2024',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Advanced TypeScript concepts and enterprise patterns'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/automated_machine_learning_udemy.jpg',
+    description: 'Introduction to automated machine learning techniques and tools'
   },
   {
-    title: 'ANRF GenAI" workshop',
+    title: 'Volunteer at International Conference on Contemporary Computing and Communication',
+    issuer: 'IEEE',
+    date: '2024',
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/inc4_ieee.png',
+    description: 'Volunteering at the International Conference on Contemporary Computing and Communication'
+  },
+  {
+    title: 'Congress on Intelligent Systems',
+    issuer: 'IEEE',
+    date: '2024',
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/cis_ieee.jpeg',
+    description: 'Attendance at the Congress on Intelligent Systems event by IEEE'
+  },
+  {
+    title: 'ANRF GenAI Workshop',
     issuer: 'Christ University',
     date: '2025',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    description: 'Advanced TypeScript concepts and enterprise patterns'
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/anrf_christ.jpeg',
+    description: 'Workshop on generative AI technologies hosted by ANRF'
+  },
+  {
+    title: 'Smart Earth Hackathon Participation',
+    issuer: 'Nazarbayev University Kazakhstan',
+    date: '2025',
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/smartearth_hackathon.png',
+    description: 'Participation in the Smart Earth Hackathon event'
+  },
+  {
+    title: 'Digital Forensic Analyst',
+    issuer: 'ARDC',
+    date: '2025',
+    image: 'https://github.com/anandhu2311c/portfolio/blob/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/forensic_ardc.png',
+    description: 'Certification as a digital forensic analyst'
   }
 ];
+
 
 const Certificates = () => {
   return (
