@@ -15,7 +15,7 @@
 }
 
 .project-card {
-  @apply relative overflow-hidden rounded-lg p-6 gradient-border transition-all duration-300 hover:scale-[1.02];
+  @apply relative overflow-hidden rounded-lg p-4 md:p-6 gradient-border transition-all duration-300 hover:scale-[1.02];
 }
 
 .nav-link {
@@ -33,4 +33,11 @@
 
 .section {
   scroll-margin-top: 5rem;
+}
+
+/* Mobile scroll behavior */
+@media (max-width: 768px) {
+  .section {
+    scroll-margin-top: 4rem;
+  }
 }
