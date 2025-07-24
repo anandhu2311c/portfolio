@@ -26,7 +26,7 @@ const projects = [
     description: 'A Retrieval-Augmented Generation system using LangChain framework that leverages fast LLM inference and Google Generative AI for embeddings, allowing queries based on PDF content.',
     tech: ['Python', 'LangChain', 'ChromaDB', 'Google AI', 'PDF Processing'],
     githubUrl: 'https://github.com/anandhu2311c/Rag-and-lanngchain.git',
-    image: 'https://raw.githubusercontent.com/anandhu2311c/portfolio/10778433da13e599f8c11c35b709bd6c54e86152/images/rag.jpg',
+    image: 'https://raw.githubusercontent.com/anandhu2311c/portfolio/652ad1e448c33aab40c1f76e5bd198cb04df53cd/images/rag.jpg',
     objective: 'To implement a sophisticated RAG system that enables intelligent document querying through PDF ingestion, vector embeddings, and LLM-powered question answering.',
     keyAchievements: [
       'Implemented PDF document ingestion and intelligent text chunking',
@@ -41,7 +41,7 @@ const projects = [
     description: 'A complete MLOps-enabled Deep Learning project that classifies chest cancer images using VGG16 model with integrated data versioning, experiment tracking, and CI/CD deployment.',
     tech: ['Python', 'TensorFlow', 'MLflow', 'DVC', 'AWS', 'Docker'],
     githubUrl: 'https://github.com/anandhu2311c/Chest-Cancer.git',
-    image: 'https://raw.githubusercontent.com/anandhu2311c/portfolio/199be9a78fb2b929be92ff0f684f247eeb3c30f7/images/lung.jpg',
+    image: 'https://raw.githubusercontent.com/anandhu2311c/portfolio/652ad1e448c33aab40c1f76e5bd198cb04df53cd/images/lung.jpg',
     objective: 'To develop a complete MLOps pipeline for medical image classification using deep learning, incorporating industry best practices for model versioning, experiment tracking, and automated deployment.',
     keyAchievements: [
       'Built end-to-end MLOps pipeline with DVC for data versioning',
@@ -131,7 +131,7 @@ const projects = [
   description: 'A voice-powered dream journal app that captures, transforms, and stores dreams creatively. Uses AI to transcribe voice recordings and generate beautifully written stories in various styles.',
   tech: ['React', 'TypeScript', 'FastAPI', 'OpenAI', 'Whisper AI'],
   githubUrl: 'https://github.com/anandhu2311c/storify_.git',
-  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+  image: 'https://raw.githubusercontent.com/anandhu2311c/storify_/5f46e2e09d8cbe8b5a8d0126e5f4c40c2ba1c585/images/1.png',
   objective: 'To create an innovative voice-powered dream journal that transforms spoken dream fragments into beautifully crafted stories using AI transcription and narrative generation.',
   keyAchievements: [
     'Built voice recording interface with real-time audio capture',

@@ -55,14 +55,16 @@ const skillsData = [
 
 const experiences = [
   {
-    title: 'Web Developer Intern',
+    title: 'Full Stack Developer Intern',
     company: 'Agio Stocks And Shares Private LTD',
     duration: 'April 2025 - May 2025',
     location: 'Thrissur, Kerala',
-    description: [
-      'Developed a Full Stack Web Platform for Nifty 500 Stock Analysis, integrated Machine Learning to provide users with comprehensive insights.',
-      'Built with Python and React, the platform features dynamic data visualization, enables fundamental and technical analysis of Nifty 500 stocks, and leverages predictive models for enhanced decision-making.'
-    ]
+  description: [
+    'Developed comprehensive NIFTY 500 stock analysis platform using Python, Flask, and machine learning algorithms (Random Forest, Gradient Boosting) for CAGR prediction and Next 30-Day Sharpe ratio forecasting, processing 15+ years of historical data with interactive dark mode dashboards featuring Plotly.js visualizations, achieving 75%+ prediction accuracy.',
+    
+    'Implemented end-to-end MLOps infrastructure with MLflow for experiment tracking, DVC for data versioning, and AWS cloud deployment (ECS Fargate, ECR, S3, CloudWatch) featuring automated CI/CD pipelines using GitHub Actions, Docker containerization, and automated model training workflows.',
+    
+  ]
   },
   {
     title: 'Student Intern',
@@ -143,7 +145,7 @@ const Home = () => {
             transition={{ delay: 0.6 }}
             className="text-lg md:text-xl text-gray-400 mb-6 md:mb-8 text-center px-4"
           >
-            Software Developer | React & TypeScript Expert | Computer Vision Enthusiast
+            Software Developer
           </motion.p>
 
           <motion.div
@@ -175,7 +177,7 @@ const Home = () => {
               <Mail size={20} className="md:w-6 md:h-6" />
             </a>
             <a
-              href="https://drive.google.com/file/d/124VuzNMLdtzStLHFIEaFS9mLQK5_V4BA/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1NqFkGPp5mfdUjUft0EuYW6forfZdwDxU?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -203,12 +205,12 @@ const Home = () => {
             >
               <h2 className="text-2xl md:text-3xl font-bold text-violet-400 mb-6">About Me</h2>
               <p className="text-gray-300 text-base md:text-lg leading-relaxed max-w-3xl mx-auto px-4">
-                I'm a passionate software developer with expertise in full-stack web development, computer vision, 
-                and AI-powered applications. My journey in technology has led me to work with cutting-edge technologies 
-                like React, TypeScript, Python, and machine learning APIs. I specialize in creating intelligent solutions 
-                that bridge the gap between complex technology and user-friendly interfaces. From building AI-powered email 
-                assistants to developing stock analysis platforms with machine learning integration, I'm driven by the 
-                challenge of turning innovative ideas into practical, impactful applications.
+                Results-driven Software Developer with a strong foundation in designing, developing, 
+                and deploying robust and scalable applications. Specialized in integrating Artificial Intelligence
+               (AI) and Machine Learning (ML) to enhance software functionality and intelligence.
+                Experienced in building full-stack web applications, optimizing backend systems techniques 
+                to solve real-world problems. Committed to writing clean, efficient code and delivering high-impact 
+                software solutions with a user-centric approach.
               </p>
             </motion.div>
 

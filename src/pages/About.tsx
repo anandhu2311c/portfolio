@@ -43,14 +43,20 @@ const About = () => {
             className="mb-12 text-gray-300 text-lg leading-relaxed"
           >
             <p className="mb-4">
-              I'm a passionate software developer with expertise in frontend development, computer vision, 
-              and desktop application development. My journey in technology has led me to work with various 
-              technologies and frameworks, allowing me to create efficient and user-friendly solutions.
+              Results-driven Software Developer with a strong foundation in designing, developing, 
+              and deploying robust and scalable applications. Specialized in integrating Artificial Intelligence
+               (AI) and Machine Learning (ML) to enhance software functionality and intelligence.
+                Experienced in building full-stack web applications, optimizing backend systems techniques 
+                to solve real-world problems. Committed to writing clean, efficient code and delivering high-impact 
+                software solutions with a user-centric approach.
             </p>
             <p>
-              I specialize in building responsive web applications using React and TypeScript, developing 
-              desktop applications with Python and PyQt, and implementing computer vision solutions. I'm 
-              also experienced in PHP/MySQL development for web-based systems.
+              Results-driven Software Developer with a strong foundation in designing, developing, 
+              and deploying robust and scalable applications. Specialized in integrating Artificial Intelligence
+               (AI) and Machine Learning (ML) to enhance software functionality and intelligence.
+                Experienced in building full-stack web applications, optimizing backend systems techniques 
+                to solve real-world problems. Committed to writing clean, efficient code and delivering high-impact 
+                software solutions with a user-centric approach.
             </p>
           </motion.div>
 

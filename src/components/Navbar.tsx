@@ -50,7 +50,7 @@ const Navbar = () => {
                 <span>Contact</span>
               </ScrollLink>
               <a
-                href="https://drive.google.com/file/d/124VuzNMLdtzStLHFIEaFS9mLQK5_V4BA/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1NqFkGPp5mfdUjUft0EuYW6forfZdwDxU?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-link flex items-center gap-2"
@@ -66,7 +66,7 @@ const Navbar = () => {
                 <span>Home</span>
               </Link>
               <a
-                href="https://drive.google.com/file/d/124VuzNMLdtzStLHFIEaFS9mLQK5_V4BA/view?usp=sharing"
+                href="https://drive.google.com/drive/folders/1NqFkGPp5mfdUjUft0EuYW6forfZdwDxU?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-link flex items-center gap-2"
@@ -100,7 +100,7 @@ const Navbar = () => {
                   <span>Contact</span>
                 </ScrollLink>
                 <a
-                  href="https://drive.google.com/file/d/124VuzNMLdtzStLHFIEaFS9mLQK5_V4BA/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1NqFkGPp5mfdUjUft0EuYW6forfZdwDxU?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link flex items-center gap-3 py-2"
@@ -117,7 +117,7 @@ const Navbar = () => {
                   <span>Home</span>
                 </Link>
                 <a
-                  href="https://drive.google.com/file/d/124VuzNMLdtzStLHFIEaFS9mLQK5_V4BA/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1NqFkGPp5mfdUjUft0EuYW6forfZdwDxU?usp=drive_link"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link flex items-center gap-3 py-2"
