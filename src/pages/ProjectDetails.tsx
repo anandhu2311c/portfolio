@@ -4,6 +4,169 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, ExternalLink, Github, Target, Award } from 'lucide-react';
 
 const projectsData = {
+    'ecotracker': {
+    title: 'EcoTracker - AI-Powered Carbon Footprint Monitor',
+    description: 'A comprehensive carbon footprint tracking application that combines AI-powered analysis, social features, and gamification to help users monitor and reduce their environmental impact.',
+    tech: ['Next.js 14', 'React 18', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind CSS', 'shadcn/ui', 'Llama 3.3', 'Gemma2', 'Recharts'],
+    liveUrl: 'https://carbon-tracker-delta.vercel.app/',
+    githubUrl: 'https://github.com/anandhu2311c/carbon-tracker.git',
+    image: 'https://images.unsplash.com/photo-1569163139394-de44cb5842ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    objective: 'To create a comprehensive platform that combines AI-powered analysis, social features, and gamification to help users monitor and reduce their environmental impact through accurate EPA-based carbon calculations and personalized sustainability insights.',
+    keyAchievements: [
+      'Built comprehensive carbon tracking with AI-powered activity logging',
+      'Integrated multiple LLM models (Llama 3.3 70B, Llama 3.1 8B, Gemma2 9B) for personalized insights',
+      'Implemented real-time dashboard with EPA-based carbon calculations and visualizations',
+      'Created social challenges, leaderboards, and gamification features for user engagement',
+      'Built carbon offset marketplace with verified environmental projects',
+      'Implemented secure authentication with Supabase and real-time data synchronization'
+    ],
+    features: [
+      'AI-powered activity logging and carbon footprint analysis',
+      'Real-time dashboard with daily/monthly emissions tracking',
+      'AI Green Scanner for product carbon impact analysis',
+      'Personalized AI coach with weekly sustainability reports',
+      'Social challenges and community-based environmental goals',
+      'Carbon offset marketplace with verified projects',
+      'Live eco-points ranking and achievement system',
+      'Goal management with AI-recommended sustainability targets'
+    ]
+  },
+  'storify': {
+  title: 'Storify – AI-Powered Dream Journal',
+  description: 'A voice-powered dream journal app that helps you capture, transform, and store your dreams in a creative and meaningful way. Speak your dreams when you wake up, and Storify uses AI to transcribe your thoughts, analyze the mood, and generate beautifully written stories in your chosen style.',
+  tech: ['React', 'TypeScript', 'TailwindCSS', 'React Router', 'Framer Motion', 'FastAPI', 'Python', 'OpenAI', 'Whisper AI', 'Hugging Face', 'SQLite'],
+  githubUrl: 'https://github.com/anandhu2311c/storify_.git',
+  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+  objective: 'To create an innovative voice-powered dream journal that transforms spoken dream fragments into beautifully crafted stories using AI transcription and narrative generation, making dream recording effortless and creative.',
+  keyAchievements: [
+    'Built comprehensive voice recording system with real-time audio processing',
+    'Integrated Whisper AI via Hugging Face for high-accuracy speech-to-text transcription',
+    'Implemented OpenAI-powered story generation with multiple creative writing styles',
+    'Created advanced emotion and symbol extraction for psychological dream analysis',
+    'Developed intuitive timeline-based dream journal with story revisiting capabilities',
+    'Built FastAPI backend with SQLite database for efficient data management',
+    'Designed dark mode interface optimized for comfortable nighttime usage'
+  ],
+  features: [
+    'Voice recording with immediate audio capture',
+    'AI-powered speech transcription using Whisper',
+    'Story generation in multiple styles (Shakespearean, Sci-Fi, Thriller)',
+    'Emotion and symbol analysis for dream insights',
+    'Timeline-based dream journal storage and retrieval',
+    'Dark mode support for nighttime comfort',
+    'Creative writing style selection',
+    'FastAPI backend with real-time processing'
+  ]
+  },
+
+  'rag-langchain': {
+    title: 'RAG with LangChain and PDF Support',
+    description: 'A Retrieval-Augmented Generation system using LangChain framework that leverages fast LLM inference and Google Generative AI for embeddings, allowing intelligent queries based on PDF content.',
+    tech: ['Python', 'LangChain', 'ChromaDB', 'Google Generative AI', 'PDF Processing', 'Vector Embeddings', 'LLM'],
+    githubUrl: 'https://github.com/anandhu2311c/Rag-and-lanngchain.git',
+    image: 'https://images.unsplash.com/photo-1544396821-4dd40b938f0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    objective: 'To implement a sophisticated RAG system that enables intelligent document querying through PDF ingestion, vector embeddings, and LLM-powered question answering for enhanced information retrieval.',
+    keyAchievements: [
+      'Implemented comprehensive PDF document ingestion and intelligent text chunking',
+      'Built vector database with ChromaDB for efficient semantic search capabilities',
+      'Integrated Google Generative AI embeddings for high-quality document understanding',
+      'Created interactive terminal-based Q&A system with LLM-powered responses',
+      'Developed secure environment variable management for API keys',
+      'Built modular architecture supporting multiple LLM providers'
+    ],
+    features: [
+      'PDF document ingestion and processing',
+      'Intelligent text chunking for optimal retrieval',
+      'Vector database storage with ChromaDB',
+      'High-speed LLM inference with Language Processing Unit',
+      'Google Generative AI embeddings integration',
+      'Interactive question-answering interface',
+      'Secure API key management',
+      'Semantic search capabilities'
+    ]
+  },
+
+  'chest-cancer-classification': {
+    title: 'End-to-End Chest Cancer Classification',
+    description: 'A complete MLOps-enabled Deep Learning project that classifies chest cancer images using VGG16 model with integrated data versioning, experiment tracking, model registry, and CI/CD deployment.',
+    tech: ['Python', 'TensorFlow', 'Keras', 'VGG16', 'MLflow', 'DVC', 'AWS', 'Docker', 'EC2', 'ECR', 'GitHub Actions'],
+    githubUrl: 'https://github.com/anandhu2311c/Chest-Cancer.git',
+    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    objective: 'To develop a complete MLOps pipeline for medical image classification using deep learning, incorporating industry best practices for model versioning, experiment tracking, automated deployment, and continuous integration.',
+    keyAchievements: [
+      'Built comprehensive MLOps pipeline with DVC for data versioning and workflow automation',
+      'Implemented VGG16-based transfer learning for accurate medical image classification',
+      'Integrated MLflow for experiment tracking, model registry, and performance monitoring',
+      'Deployed using Docker containers on AWS EC2 and ECR with automated scaling',
+      'Created CI/CD pipeline with GitHub Actions and self-hosted AWS runners',
+      'Achieved automated model deployment with zero-downtime updates'
+    ],
+    features: [
+      'Automated data ingestion from Google Drive',
+      'VGG16 transfer learning with custom classification head',
+      'Comprehensive model training with data augmentation',
+      'MLflow experiment tracking and model registry',
+      'DVC pipeline for workflow automation',
+      'Docker containerization for consistent deployment',
+      'AWS EC2 and ECR integration',
+      'CI/CD with GitHub Actions',
+      'Automated model evaluation and scoring'
+    ]
+  },
+
+  'fashion-recommendation': {
+    title: 'AI-Powered Fashion Recommendation System',
+    description: 'An AI-powered fashion recommendation and popularity prediction system that uses deep learning to understand product images and generate personalized recommendations based on visual similarity.',
+    tech: ['Python', 'TensorFlow', 'Keras', 'YOLOv8', 'Streamlit', 'scikit-learn', 'Pandas', 'NumPy', 'OpenCV'],
+    githubUrl: 'https://github.com/anandhu2311c/fashion_recom.git',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    objective: 'To create an intelligent fashion recommendation system that analyzes product images using deep learning to provide personalized recommendations, predict popularity trends, and identify fashion clusters.',
+    keyAchievements: [
+      'Developed CNN-based image encoder for fashion product feature extraction',
+      'Implemented similarity-based recommendation using cosine similarity algorithms',
+      'Built popularity prediction model using ratings and review count analysis',
+      'Created comprehensive web scraping pipeline for Amazon, Flipkart, and Myntra',
+      'Integrated YOLOv8 for automated product detection and image cropping',
+      'Built interactive Streamlit interface for real-time recommendations'
+    ],
+    features: [
+      'Image-based fashion product recommendations',
+      'Product popularity prediction system',
+      'Trend clustering for popular vs outdated designs',
+      'Interactive Streamlit web interface',
+      'Multi-platform web scraping (Amazon, Flipkart, Myntra)',
+      'YOLOv8 object detection for product cropping',
+      'KMeans clustering for trend analysis',
+      'Real-time similarity matching'
+    ]
+  },
+
+  'nifty500-analysis': {
+    title: 'NIFTY 500 Advanced Stock Analysis & ML Platform',
+    description: 'A comprehensive learning platform for analyzing and predicting NIFTY 500 stock performance using 15+ years of historical data with modern MLOps practices including MLflow, DVC, and AWS cloud infrastructure.',
+    tech: ['Python', 'Machine Learning', 'MLflow', 'DVC', 'AWS', 'Pandas', 'NumPy', 'scikit-learn', 'TensorFlow'],
+    githubUrl: 'https://github.com/anandhu2311c/nifty500_perdiction_pipeline.git',
+    image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    objective: 'To develop a sophisticated stock analysis and prediction platform that leverages advanced machine learning algorithms and MLOps practices to analyze NIFTY 500 stock performance patterns over 15+ years of historical data.',
+    keyAchievements: [
+      'Built comprehensive stock analysis platform with 15+ years of NIFTY 500 historical data',
+      'Implemented advanced ML models for accurate stock performance prediction',
+      'Integrated complete MLOps pipeline with MLflow for experiment tracking',
+      'Deployed scalable solution on AWS cloud infrastructure',
+      'Created automated data pipeline with DVC for version control',
+      'Built interactive dashboard for real-time stock analysis and predictions'
+    ],
+    features: [
+      'Comprehensive NIFTY 500 stock data analysis',
+      'Advanced machine learning prediction models',
+      'MLflow experiment tracking and model management',
+      'DVC data version control and pipeline automation',
+      'AWS cloud deployment and scaling',
+      'Historical trend analysis over 15+ years',
+      'Real-time stock performance monitoring',
+      'Automated model training and evaluation'
+    ]
+  },
   'ai-email-rewriter': {
     title: 'AI-Powered Email Rewriter',
     description: 'An intelligent email assistant that rewrites emails in different tones (formal, friendly, or professional) using LLaMA 3 API, making communication effortless and tone-perfect.',
