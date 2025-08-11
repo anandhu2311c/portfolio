@@ -10,7 +10,7 @@ const projectsData = {
     tech: ['Next.js 14', 'React 18', 'TypeScript', 'Supabase', 'PostgreSQL', 'Tailwind CSS', 'shadcn/ui', 'Llama 3.3', 'Gemma2', 'Recharts'],
     liveUrl: 'https://carbon-tracker-delta.vercel.app/',
     githubUrl: 'https://github.com/anandhu2311c/carbon-tracker.git',
-    image: 'https://images.unsplash.com/photo-1569163139394-de44cb5842ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    image: 'https://raw.githubusercontent.com/anandhu2311c/portfolio/10778433da13e599f8c11c35b709bd6c54e86152/images/Screenshot%202025-06-22%20211628.png',
     objective: 'To create a comprehensive platform that combines AI-powered analysis, social features, and gamification to help users monitor and reduce their environmental impact through accurate EPA-based carbon calculations and personalized sustainability insights.',
     keyAchievements: [
       'Built comprehensive carbon tracking with AI-powered activity logging',
@@ -36,7 +36,7 @@ const projectsData = {
   description: 'A voice-powered dream journal app that helps you capture, transform, and store your dreams in a creative and meaningful way. Speak your dreams when you wake up, and Storify uses AI to transcribe your thoughts, analyze the mood, and generate beautifully written stories in your chosen style.',
   tech: ['React', 'TypeScript', 'TailwindCSS', 'React Router', 'Framer Motion', 'FastAPI', 'Python', 'OpenAI', 'Whisper AI', 'Hugging Face', 'SQLite'],
   githubUrl: 'https://github.com/anandhu2311c/storify_.git',
-  image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+  image: 'https://raw.githubusercontent.com/anandhu2311c/storify_/5f46e2e09d8cbe8b5a8d0126e5f4c40c2ba1c585/images/1.png',
   objective: 'To create an innovative voice-powered dream journal that transforms spoken dream fragments into beautifully crafted stories using AI transcription and narrative generation, making dream recording effortless and creative.',
   keyAchievements: [
     'Built comprehensive voice recording system with real-time audio processing',
@@ -64,7 +64,7 @@ const projectsData = {
     description: 'A Retrieval-Augmented Generation system using LangChain framework that leverages fast LLM inference and Google Generative AI for embeddings, allowing intelligent queries based on PDF content.',
     tech: ['Python', 'LangChain', 'ChromaDB', 'Google Generative AI', 'PDF Processing', 'Vector Embeddings', 'LLM'],
     githubUrl: 'https://github.com/anandhu2311c/Rag-and-lanngchain.git',
-    image: 'https://images.unsplash.com/photo-1544396821-4dd40b938f0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    image: 'https://raw.githubusercontent.com/anandhu2311c/portfolio/652ad1e448c33aab40c1f76e5bd198cb04df53cd/images/rag.jpg',
     objective: 'To implement a sophisticated RAG system that enables intelligent document querying through PDF ingestion, vector embeddings, and LLM-powered question answering for enhanced information retrieval.',
     keyAchievements: [
       'Implemented comprehensive PDF document ingestion and intelligent text chunking',
@@ -91,7 +91,7 @@ const projectsData = {
     description: 'A complete MLOps-enabled Deep Learning project that classifies chest cancer images using VGG16 model with integrated data versioning, experiment tracking, model registry, and CI/CD deployment.',
     tech: ['Python', 'TensorFlow', 'Keras', 'VGG16', 'MLflow', 'DVC', 'AWS', 'Docker', 'EC2', 'ECR', 'GitHub Actions'],
     githubUrl: 'https://github.com/anandhu2311c/Chest-Cancer.git',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    image: 'https://raw.githubusercontent.com/anandhu2311c/portfolio/652ad1e448c33aab40c1f76e5bd198cb04df53cd/images/lung.jpg',
     objective: 'To develop a complete MLOps pipeline for medical image classification using deep learning, incorporating industry best practices for model versioning, experiment tracking, automated deployment, and continuous integration.',
     keyAchievements: [
       'Built comprehensive MLOps pipeline with DVC for data versioning and workflow automation',
